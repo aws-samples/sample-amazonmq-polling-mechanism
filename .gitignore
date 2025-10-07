@@ -1,0 +1,74 @@
+# CDK
+infra/.venv/
+infra/cdk.out/
+infra/*-outputs.json
+infra/outputs.json
+infra/__pycache__/
+infra/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# React/Node.js
+spa-app/node_modules/
+spa-app/build/
+spa-app/dist/
+spa-app/.env.local
+spa-app/.env.development.local
+spa-app/.env.test.local
+spa-app/.env.production.local
+spa-app/npm-debug.log*
+spa-app/yarn-debug.log*
+spa-app/yarn-error.log*
+spa-app/src/App.js.bak
+
+# Spring Boot
+spring-app/target/
+spring-app/.mvn/
+spring-app/mvnw
+spring-app/mvnw.cmd
+spring-app/.settings/
+spring-app/.project
+spring-app/.classpath
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# AWS
+.aws-sam/
+*.zip
+
+#Temp env
+venv

@@ -1,0 +1,30 @@
+{
+  "name": "spa-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "aws-sdk": "^2.1490.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1"
+  },
+  "overrides": {
+    "postcss": "^8.4.31",
+    "webpack-dev-server": "^4.15.2",
+    "nth-check": "2.1.1"
+  },
+  "resolutions": {
+    "nth-check": "2.1.1"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
+}

@@ -1,0 +1,4 @@
+spring:
+  jms:
+    listener:
+      auto-startup: true
